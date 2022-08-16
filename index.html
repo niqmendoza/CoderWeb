@@ -1,116 +1,78 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--linkeo el archivo css-->
-    <link rel="stylesheet" href=".vscode\estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--linkeo el archivo css-->
+        <link rel="stylesheet" href="estilos.css">
     <title>Nicolas Mendoza Data Scientist</title>
 </head>
-    <body>
-    <header> 
-    <div class="titulo1"><h1>Bienvenido a mi sitio</h1></div>
-
-    <!--imagen-->
-    <div class="img1">
-    <img  class="bordes" src="fotos\Foto con hinata.jpg" alt="Foto con Hinata" width="200" height="250">
-    </div>
-    </header>  
-
-<div>
-    <nav style="text-align: center;" class="bordes">
+<header>
+    <div>
+        <nav class="principal">
         <!--Lista desordenada-->
-        <ul class="listas">
-        <li><a href="#Proyectos">Proyectos</a></li>
-        <li><a href="#contact">contactame</a></li>
-        <li><a href="sobremi.html">Sobre mi</a></li>
-        <li><a href="TensorFlow.html">TensorFlow</a></li>
-        <li><a href="scikit.html">Scikit Learn</a></li>
-        <li><a href="Powerbi.html">Power BI</a></li>
-        <li><a href="index.html">Inicio</a></li>
-        </ul>
-    </nav>
-</div>
-
-<br>
-<main>
-<div>    
-<section style="text-align: center;"> <!--texto centrado con css-->
-    <nav>
-        <p><a id="Proyectos">Proyectos</a></p>
-<!--lista 1-->
-        <h2 class="boxs" >Proyectos con TensorFlow</h2> <!--llamo al diseno de border con class-->
-        <ol class="listas">
-        <li>Descripcion proyecto 1</li>
-        <li>Descripcion proyecto 2</li>
-        <li>Descripcion proyecto 3</li>
-        <br>
-        <!--href a tensorflow.html-->
-    <a href="TensorFlow.html" target="_blank">Mas informacion</a>
-        </ol>
-    </nav>
-</section>
-</div>
-<br>
-
-
-<!--lista 2-->
-<div>
-<section style="text-align: center;"> <!--texto centrado con css-->
-    <nav>
-        <h2 class="boxs">Proyecto con Scikit Learn</h2> <!--llamo al diseno de border con class-->
-        <ol class="listas">
-        <li>descripcion de proyecto</li>
-        <li>Tecnologias aplicadas</li>
-        </ol>
-        <!--href a scikit.html-->
-        <a href="scikit.html" target="_blank">Mas informacion</a>
-    </nav>
-</section>
-</div>
-<br>
-
-
-<!--lista 3-->
-<div>
-<section style="text-align: center;"> <!--texto centrado con css-->
-    <nav>
-        <h2 class="boxs">Proyecto con Power BI</h2> <!--llamo al diseno de border con class-->
-        <ol class="listas">
-        <li>Descripcion del proyecto</li>
-        <!--href a Powerbi.html-->
-        <a href="Powerbi.html" > Mas informacion </a>
-        </ol>
+            <ul>
+                <li><a href="#proyectos" >Proyectos</a></li>
+                <li><a href="#contact" >contactame</a></li>
+                <li><a href="sobremi.html" >Sobre mi</a></li>
+                <li><a href="tensorflow.html" >TensorFlow</a></li>
+                <li><a href="scikit.html" >Scikit Learn</a></li>
+                <li><a href="power.html" >Power BI</a></li>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
         </nav>
-</section>
-</div>
-</main>
-
-<!--footer-->
-<footer style="text-align: center;" action="enviar.php" method="post" enctype="text/plain"><!--method puede ser get o post post es para que no viaje de manera visible-->
-    <div>
-        <a id="contact">contactame</a>
-        <h2 class="boxs">Formulario de contacto</h2>
-        <label for="Nombre"> Nombre:</label>
-        <input type="text" name="Nombre">
-        <br>
-        <label for="Apellido"> Apellido:</label>
-        <input type="text" name="Apellido">
-        <br>
-        <label for="Correo"> Correo:</label>
-        <input type="email" name="Correo">
-        <br>
-        <label for="Comentarios">comentarios</label><br>
-        <textarea name="comentarios" id="" cols="30" rows="5"></textarea><br>
-        <br>
-        <input type="submit" value="Enviando">
     </div>
-    <div>
-        <h2 class="boxs">Muchas gracias</h2>
-        <div style="width:100%;height:0;padding-bottom:90%;position:relative;"><iframe src="https://giphy.com/embed/tHufwMDTUi20E" width="15%" height="10%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/school-back-guinea-tHufwMDTUi20E"></a></p>
+</header>
+<body>
+    <main>
+        <div>
+            <h1>Bienvenido/a a mi sitio</h1>
+                <p class="pmain">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora reiciendis, placeat rem temporibus autem ab voluptates nam et, voluptatibus, quisquam cum ipsam provident labore atque eos? Pariatur minus perspiciatis labore.</p>
+        </div>
+    </main>
+    
+        <section class="sobremmi">
+            <div class="nleft"></div>
+            <div class="nright">
+                <h3>Sobre mi</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto consectetur quasi quod assumenda eius id dolor fuga quis, labore sapiente eligendi dolores enim deserunt optio odit earum sint reiciendis. Doloribus.</p>
+            </div>  
+        </section>
+            <h2>galeria</h2>
+    <div class="galeria" id="proyectos">
+        <div class="item item1" href="sobremi.html">Sobre mi</div>
+        <div class="item item2"> </div>
+        <div class="item item3">Scikit Learn</div>
+        <div class="item item4">Power BI</div>
+        <div class="item item5">Contactame</div>
+        <div class="item item6">Inicio</div>
     </div>
-</footer>
 
+    <footer>
+        <div>
+            <a id="contact"></a>
+            <i class="fa-solid fa-message-middle"></i>
+            <h2 class="boxs">Formulario de contacto</h2>
+            
+            <label for="Nombre"> Nombre:</label>
+            <input type="text" name="Nombre">
+            <br>
+            <label for="Apellido"> Apellido:</label>
+            <input type="text" name="Apellido">
+            <br>
+            <label for="Correo"> Correo:</label>
+            <input type="email" name="Correo">
+            <br>
+            <label for="Comentarios">comentarios</label><br>
+            <textarea name="comentarios" id="" cols="30" rows="5"></textarea><br>
+            <br>
+            <input type="submit" value="Enviando">
+        </div>
+        <div>
+            <h2 class="boxs">Muchas gracias</h2>
+        </div>
+    </footer>
 </body>
 </html>
