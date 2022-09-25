@@ -1,0 +1,200 @@
+*{padding: 0;
+margin: 0;}
+
+.jumbotron{
+    background-image: url(imgs/stock-gbb9387ae6_1280.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+    border-radius: 0; 
+    margin-bottom: 0;
+    text-shadow: 0 0 5px #000;
+    
+}
+
+.container-fluid{
+    background-image: url(imgs/spaceee.jpg);
+    height: 400px;
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    opacity: 0.9;
+    margin-bottom: 0;
+    text-decoration:solid;
+    
+}
+.tensor{
+    background-color: #2F4858;
+    padding:15px;
+    margin: 15px ;
+    border-radius: 25px;
+    
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Island+Moments&family=Moon+Dance&display=swap');
+
+//fonts
+
+$font1: 'Barlow', sans-serif;
+$font2: 'Island Moments', cursive;
+$font3: 'Moon Dance', cursive;
+$color22: rgb(15, 138, 138);
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: $color22;
+    border-radius: 0; 
+    margin-bottom: 0;
+    background-color: rgb(27, 26, 26);
+    text-shadow: 5px 5px 10px #333;
+    font-family: sans-serif;
+}
+
+//variables
+
+$ancho: 720px;
+$alto: 100px;
+
+$var1: 100%;
+$var2: 50%;
+
+$blue: darkblue;
+$green: #0f9243;
+$red: darkred;
+$black: black;
+$white: rgb(10, 5, 5);
+
+$xs: 16px;
+$small: 30px;
+$med: 40px;
+$large: 60px;
+$xl: 80px;
+
+// paleta colores
+
+$color1: #ff000f;
+$color2: #ff000f;
+$color3: #ff000f;
+$color4: #ff000f;
+$color5: #fafa0f;
+$color6: #dfa00f;
+
+//dimensiones
+
+$size1: 100%;
+$size1: 50%;
+$size1: 20px;
+$size1: 50px;
+
+//fonts
+
+$font1: cursive;
+$font2: cursive;
+$font3: cursive;
+$font4: cursive;
+$font5:  'Oswald', sans-serif;
+
+.redes {
+    background-image: url(imgs/spaceee.jpg);
+    font-size: $small;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+@mixin sizes($width, $height, $bcolor) {
+    height: $height;
+    width: $width;
+    background-color: $bcolor;
+    
+}
+
+//TENSOR//
+.tensorsci{
+    height: $ancho;
+    background-image: url(imgs/spaceee.jpg);
+    text-align: center;
+    
+    
+}
+
+.git{
+    height: $med;
+    padding: 30px;
+}
+
+.laptop{
+    height: $ancho;
+    padding: 60px;
+    
+}
+
+
+.tensorheadr{
+    text-align: center0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: $black;
+    padding: 15px;
+    color: rgb(209, 177, 177);
+    
+}
+
+//sobremi//
+.pichinata{
+    background-image: url(imgs/spaceee.jpg);
+    padding: 0;
+    font-size: $small;
+    font-family: $font4;
+    color: rgb(255, 205, 205);
+    
+}
+
+
+.resize {
+    width: 150px;
+    height: auto; 
+    display: block;
+    width: 30%; 
+    margin-left: auto;
+    margin-right: auto;
+    padding:18px;
+    background-color:#2F4858;
+    width: 200px;
+    border-bottom: 1px solid #2F4858;
+    border-right: 1px solid #2F4858;
+}
+
+.machinee{
+    width: 300px;
+    height: auto;
+    display:grid;
+    padding: 100px;
+    width: 100%; 
+
+}
+
+.resize {
+    width: 150px;
+    height: auto; 
+    display: block;
+    width: 30%; 
+    margin-left: auto;
+    margin-right: auto;
+    padding:18px;
+    background-color:#2F4858;
+    width: 200px;
+    border-bottom: 1px solid #2F4858;
+    border-right: 1px solid #2F4858;
+}
+
+.card {
+
+    background: url("./imgs/pexels-pixabay-265087.jpg") no-repeat;
+
+}
+
+

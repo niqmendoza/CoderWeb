@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Island+Moments&family=Moon+Dance&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.jumbotron {
+  background-image: url(imgs/stock-gbb9387ae6_1280.jpg);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: antiquewhite;
+  border-radius: 0;
+  margin-bottom: 0;
+  text-shadow: 0 0 5px #000;
+}
+
+.container-fluid {
+  background-image: url(imgs/spaceee.jpg);
+  height: 400px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  opacity: 0.9;
+  margin-bottom: 0;
+  text-decoration: solid;
+}
+
+.tensor {
+  background-color: #2F4858;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 25px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: rgb(15, 138, 138);
+  border-radius: 0;
+  margin-bottom: 0;
+  background-color: rgb(27, 26, 26);
+  text-shadow: 5px 5px 10px #333;
+  font-family: sans-serif;
+}
+
+.redes {
+  background-image: url(imgs/spaceee.jpg);
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.tensorsci {
+  height: 720px;
+  background-image: url(imgs/spaceee.jpg);
+  text-align: center;
+}
+
+.git {
+  height: 40px;
+  padding: 30px;
+}
+
+.laptop {
+  height: 720px;
+  padding: 60px;
+}
+
+.tensorheadr {
+  text-align: center0;
+  font-family: cursive;
+  background-color: black;
+  padding: 15px;
+  color: rgb(209, 177, 177);
+}
+
+.pichinata {
+  background-image: url(imgs/spaceee.jpg);
+  padding: 0;
+  font-size: 30px;
+  font-family: cursive;
+  color: rgb(255, 205, 205);
+}
+
+.resize {
+  width: 150px;
+  height: auto;
+  display: block;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 18px;
+  background-color: #2F4858;
+  width: 200px;
+  border-bottom: 1px solid #2F4858;
+  border-right: 1px solid #2F4858;
+}
+
+.machinee {
+  width: 300px;
+  height: auto;
+  display: grid;
+  padding: 100px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
